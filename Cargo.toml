@@ -1,0 +1,8 @@
+[package]
+name = "playground"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+hex = "0.4.2"
+sparse-merkle-tree = { git = "https://github.com/nervosnetwork/sparse-merkle-tree.git", features = ["std", "smtc"] }
